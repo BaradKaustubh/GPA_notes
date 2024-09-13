@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page title</title>
+    <style>
+      #navbar ul{
+        display: none;
+        background-color: #f90;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 30px;
+        background-color: #666;
+        padding-left: 25px;
+        min-width: 470px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        display: block;
+        padding: 6px;
+        width: 100px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+      }
+      #navbar ul li { float: none; }
+      #navbar li:hover { background-color: #f90; }
+      #navbar ul li:hover { background-color: #666; }
+    </style>
+  </head>
+  <body>
+   <ul id="navbar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contacts</a>
+        <ul>
+          <li><a href="#">Address</a></li>
+          <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About us</a></li>
+    </ul>
+    <p><u><b>Government Polytechnic, Amravati</b></u> is an autonomous Institute of Govt. Polytechnic, Maharashtra established in the year <b>1955</b>. This institute has a long history of producing technical manpower and rendering technical services to the society. Many students of this institute are chairing the topmost positions in various govt. offices and in reputed industries. Few of the students became successful entrepreneur looking to the overall performance of the institute. MSBTE, Mumbai has awarded academic autonomy to the institute from 1995.</p>
+  </body>
+</html>
